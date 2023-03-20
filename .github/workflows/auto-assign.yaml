@@ -8,3 +8,4 @@ jobs:
       - uses: kentaro-m/auto-assign-action@v1.2.5
         with:
           repo-token: "${{ secrets.AUTO_ASSIGN_SECRET }}"
+          configuration-path: '.github/auto_assign.yaml'
